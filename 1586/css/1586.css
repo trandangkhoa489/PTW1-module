@@ -1,0 +1,27 @@
+.module-1586 {
+  margin: 50px 0; }
+  .module-1586 .img-contain {
+    background: url(../images/white.jpg);
+    background-size: 290px 300px;
+    background-repeat: no-repeat;
+    height: 300px; }
+  .module-1586 .num-text {
+    font-size: 15px;
+    background: #000;
+    cursor: pointer; }
+    .module-1586 .num-text .text-lorem {
+      margin-top: 37%;
+      margin-left: 25px;
+      margin-right: 25px;
+      text-align: center; }
+      .module-1586 .num-text .text-lorem span {
+        display: inline-block;
+        margin-bottom: 10px;
+        color: #7f7f7f;
+        text-transform: uppercase;
+        font-size: 13px;
+        font-weight: 400; }
+      .module-1586 .num-text .text-lorem p {
+        color: #fff;
+        font-family: "Times New Roman", Times, serif;
+        font-style: italic; }

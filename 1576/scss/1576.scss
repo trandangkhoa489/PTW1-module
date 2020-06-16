@@ -1,0 +1,361 @@
+$mau-den: #000;
+$mau-cam: #a8642a;
+.module-1576{
+	.elementor{
+		margin-top: 80px;
+		border-top: 1px solid $mau-den;
+		display: block;
+
+		.next{
+			.icon-care-right{
+				display: inline-block;
+				font-size: 25px;
+				margin-top: 30px;
+				margin-left: 50% + 48px;				
+				&:hover{
+					color: $mau-cam;
+				}
+			}
+
+			.text-next{
+				display: flex;
+				flex-direction: column;
+				margin-left: 30px;
+				cursor: pointer;
+
+				.text-next-min{
+					margin-top: 50% - 60px;
+					margin-bottom: 18px;
+					text-transform: uppercase;
+					margin-left: 50% + 35px;
+				}
+
+				.text-hover{
+					font-size: 18px;
+					font-family: "PT Serif",Sans-serif;
+					margin-left: 50%;
+					&:hover{
+						color: $mau-cam;
+					}
+				}
+			}
+		}
+
+		.previous{
+			border-right: 1px solid $mau-den;
+			height: 60px;
+			margin-top: 20px;
+			margin-left: 1px;
+			font-size: 14px;
+			cursor: pointer;
+			
+			.icon-care-lert{
+				display: inline-block;
+				font-size: 25px;
+				margin-top: 10px;
+				&:hover{
+					color: $mau-cam;
+				}
+			}
+
+			.text-previous{
+				display: flex;
+				flex-direction: column;
+				margin-left: 30px;
+
+				.text-previous-min{
+					margin-top: 50% - 60px;
+					margin-bottom: 22px;
+					text-transform: uppercase;
+				}
+
+				.text-hover{
+					font-size: 18px;
+					font-family: "PT Serif",Sans-serif;
+					&:hover{
+						color: $mau-cam;
+					}
+				}
+			}
+		}
+
+		&::after{
+			content: "";
+			position: absolute;
+			margin-top: 15px;
+			border-bottom: 1px solid $mau-den;
+			width: 80% + 1.5px;
+		}
+	}
+
+/*css cho phan dau, phan icon*/
+	.grid-content{
+		display: grid;
+  		grid-template-columns: auto auto auto auto;
+  		grid-gap: 15px;
+  		margin-top: 50px;
+  		margin-left: 100px;
+  		margin-right: 100px;
+  		padding: 10px;
+
+
+  		/*Facebook*/
+  		.block-facebook{
+  			border: 1px solid $mau-den;
+  			padding: 5px 0;
+  			cursor: pointer;
+
+  			.icon-facebook{
+  				margin: 0 10px;
+  			}
+
+  			&:hover{
+  				border: 1px solid $mau-cam;
+  				i{
+  					color: $mau-cam;
+  				}
+  				span{
+  					color: $mau-cam;
+  				}
+  			}
+  		}
+
+  		/*Twitter*/
+  		.block-twitter{
+  			border: 1px solid $mau-den;
+  			padding: 5px 0;
+  			cursor: pointer;
+
+  			.icon-twitter{
+  				margin: 0 10px;
+  			}
+  			&:hover{
+  				border: 1px solid $mau-cam;
+  				i{
+  					color: $mau-cam;
+  				}
+  				span{
+  					color: $mau-cam;
+  				}
+  			}
+  		}
+
+  		/*Pinterest*/
+  		.block-pinterest{
+  			border: 1px solid $mau-den;
+  			padding: 5px 0;
+  			cursor: pointer;
+
+  			.icon-pinterest{
+  				margin: 0 10px;
+  			}
+  			&:hover{
+  				border: 1px solid $mau-cam;
+  				i{
+  					color: $mau-cam;
+  				}
+  				span{
+  					color: $mau-cam;
+  				}
+  			}
+  		}
+
+  		/*WhatsApp*/
+  		.block-whatsapp{
+  			border: 1px solid $mau-den;
+  			padding: 5px 0;
+  			cursor: pointer;
+
+  			.icon-whatsapp{
+  				margin: 0 10px;
+  			}
+
+  			&:hover{
+  				border: 1px solid $mau-cam;
+  				i{
+  					color: $mau-cam;
+  				}
+  				span{
+  					color: $mau-cam;
+  				}
+  			}
+  		}
+  	}
+}
+
+/*may tinh bang*/
+@media all and (max-width: 1024px) {
+	.module-1576{
+	/*css cho phan cuoi*/
+		.elementor{
+		/*Phan ben phai (NEXT)*/
+			.next{
+				.text-next{
+					.text-next-min{
+						margin-left: 80%;
+						margin-top: -20%;
+					}
+
+					.text-hover{
+						margin-left: 20%;
+						font-size: 105%;
+					}
+				}
+			}
+
+		&::after{
+			margin-top: 2.5%;
+			width: 90% ;
+		}
+
+		/*Phan ben trai (PREVIOUS)*/
+			.previous{
+				.text-previous{
+					.text-previous-min{
+						margin-top: -20%;
+					}
+
+					.text-hover{
+						font-size: 120%;
+					}
+				}
+			}
+		}
+/*css cho phan dau*/
+		.grid-content{
+			grid-gap: 10%;
+			margin: 15% 5%;
+			padding: 0;
+			display: flex;
+			flex-direction: column;
+
+	  		/*Facebook*/
+	  		.block-facebook{
+	  			border-bottom: none;
+	  			.icon-facebook{
+	  				margin: 0 10px;
+	  			}
+
+	  			&:hover{
+	  				border-top: 1px solid $mau-cam;
+	  				border-left: 1px solid $mau-cam;
+	  				border-right: 1px solid $mau-cam;
+	  				border-bottom: none;
+	  				i{
+	  					color: $mau-cam;
+	  				}
+	  				span{
+	  					color: $mau-cam;
+	  				}
+	  			}
+	  		}
+
+	  		/*Twitter*/
+	  		.block-twitter{
+	  			border-bottom: none;
+	  			.icon-twitter{
+	  				margin: 0 10px;
+	  			}
+
+	  			&:hover{
+	  				border-top: 1px solid $mau-cam;
+	  				border-left: 1px solid $mau-cam;
+	  				border-right: 1px solid $mau-cam;
+	  				border-bottom: none;
+	  				i{
+	  					color: $mau-cam;
+	  				}
+	  				span{
+	  					color: $mau-cam;
+	  				}
+	  			}
+	  			
+	  		}
+
+	  		/*Pinterest*/
+	  		.block-pinterest{
+	  			border-bottom: none;
+	  			.icon-pinterest{
+	  				margin: 0 10px;
+	  			}
+	  			
+	  			&:hover{
+	  				border-top: 1px solid $mau-cam;
+	  				border-left: 1px solid $mau-cam;
+	  				border-right: 1px solid $mau-cam;
+	  				border-bottom: none;
+	  				i{
+	  					color: $mau-cam;
+	  				}
+	  				span{
+	  					color: $mau-cam;
+	  				}
+	  			}
+	  		}
+
+	  		/*WhatsApp*/
+	  		.block-whatsapp{	  			
+	  			.icon-whatsapp{
+	  				margin: 0 10px;
+	  			}
+
+	  			&:hover{
+	  				border: 1px solid $mau-cam;
+
+	  				i{
+	  					color: $mau-cam;
+	  				}
+	  				span{
+	  					color: $mau-cam;
+	  				}
+	  			}
+	  			
+	  		}
+	  	}
+	}
+}
+
+ 
+/*dien thoai*/
+@media all and (max-width: 600px) {
+	.module-1576{
+	/*css cho phan cuoi*/
+		.elementor{
+			border-top:none;
+		/*Phan ben phai (NEXT)*/
+			.next{
+				margin-top: 5%;
+				.icon-care-right{
+					margin-top: 6%;
+					margin-left: 96%;				
+				}
+
+				.text-next{
+					.text-next-min{
+						margin-top: -15%;
+						font-size: 90%;
+					}
+					.text-hover{
+						margin-left: 25%;
+					}
+				}
+			}
+
+		&::after{
+			content: none;
+		}
+
+		/*Phan ben trai (PREVIOUS)*/
+			.previous{
+				border-right: none;
+				border-bottom: 3px solid $mau-den;
+				.text-previous{
+					.text-previous-min{
+						margin-bottom: 10%;
+						font-size: 90%;
+					}
+				}
+			}
+		}
+	}
+}

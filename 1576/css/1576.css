@@ -1,0 +1,226 @@
+.module-1576 .elementor {
+  margin-top: 80px;
+  border-top: 1px solid #000;
+  display: block; }
+  .module-1576 .elementor .next .icon-care-right {
+    display: inline-block;
+    font-size: 25px;
+    margin-top: 30px;
+    margin-left: 98%; }
+    .module-1576 .elementor .next .icon-care-right:hover {
+      color: #a8642a; }
+  .module-1576 .elementor .next .text-next {
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;
+    cursor: pointer; }
+    .module-1576 .elementor .next .text-next .text-next-min {
+      margin-top: -10%;
+      margin-bottom: 18px;
+      text-transform: uppercase;
+      margin-left: 85%; }
+    .module-1576 .elementor .next .text-next .text-hover {
+      font-size: 18px;
+      font-family: "PT Serif", Sans-serif;
+      margin-left: 50%; }
+      .module-1576 .elementor .next .text-next .text-hover:hover {
+        color: #a8642a; }
+  .module-1576 .elementor .previous {
+    border-right: 1px solid #000;
+    height: 60px;
+    margin-top: 20px;
+    margin-left: 1px;
+    font-size: 14px;
+    cursor: pointer; }
+    .module-1576 .elementor .previous .icon-care-lert {
+      display: inline-block;
+      font-size: 25px;
+      margin-top: 10px; }
+      .module-1576 .elementor .previous .icon-care-lert:hover {
+        color: #a8642a; }
+    .module-1576 .elementor .previous .text-previous {
+      display: flex;
+      flex-direction: column;
+      margin-left: 30px; }
+      .module-1576 .elementor .previous .text-previous .text-previous-min {
+        margin-top: -10%;
+        margin-bottom: 22px;
+        text-transform: uppercase; }
+      .module-1576 .elementor .previous .text-previous .text-hover {
+        font-size: 18px;
+        font-family: "PT Serif", Sans-serif; }
+        .module-1576 .elementor .previous .text-previous .text-hover:hover {
+          color: #a8642a; }
+  .module-1576 .elementor::after {
+    content: "";
+    position: absolute;
+    margin-top: 15px;
+    border-bottom: 1px solid #000;
+    width: 81.5%;
+    /*css cho phan dau, phan icon*/ }
+.module-1576 .grid-content {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-gap: 15px;
+  margin-top: 50px;
+  margin-left: 100px;
+  margin-right: 100px;
+  padding: 10px;
+  /*Facebook*/ }
+  .module-1576 .grid-content .block-facebook {
+    border: 1px solid #000;
+    padding: 5px 0;
+    cursor: pointer; }
+    .module-1576 .grid-content .block-facebook .icon-facebook {
+      margin: 0 10px; }
+    .module-1576 .grid-content .block-facebook:hover {
+      border: 1px solid #a8642a; }
+      .module-1576 .grid-content .block-facebook:hover i {
+        color: #a8642a; }
+      .module-1576 .grid-content .block-facebook:hover span {
+        color: #a8642a;
+        /*Twitter*/ }
+  .module-1576 .grid-content .block-twitter {
+    border: 1px solid #000;
+    padding: 5px 0;
+    cursor: pointer; }
+    .module-1576 .grid-content .block-twitter .icon-twitter {
+      margin: 0 10px; }
+    .module-1576 .grid-content .block-twitter:hover {
+      border: 1px solid #a8642a; }
+      .module-1576 .grid-content .block-twitter:hover i {
+        color: #a8642a; }
+      .module-1576 .grid-content .block-twitter:hover span {
+        color: #a8642a;
+        /*Pinterest*/ }
+  .module-1576 .grid-content .block-pinterest {
+    border: 1px solid #000;
+    padding: 5px 0;
+    cursor: pointer; }
+    .module-1576 .grid-content .block-pinterest .icon-pinterest {
+      margin: 0 10px; }
+    .module-1576 .grid-content .block-pinterest:hover {
+      border: 1px solid #a8642a; }
+      .module-1576 .grid-content .block-pinterest:hover i {
+        color: #a8642a; }
+      .module-1576 .grid-content .block-pinterest:hover span {
+        color: #a8642a;
+        /*WhatsApp*/ }
+  .module-1576 .grid-content .block-whatsapp {
+    border: 1px solid #000;
+    padding: 5px 0;
+    cursor: pointer; }
+    .module-1576 .grid-content .block-whatsapp .icon-whatsapp {
+      margin: 0 10px; }
+    .module-1576 .grid-content .block-whatsapp:hover {
+      border: 1px solid #a8642a; }
+      .module-1576 .grid-content .block-whatsapp:hover i {
+        color: #a8642a; }
+      .module-1576 .grid-content .block-whatsapp:hover span {
+        color: #a8642a; }
+
+/*may tinh bang*/
+@media (max-width: 1024px) {
+  .module-1576 {
+    /*css cho phan cuoi*/ }
+    .module-1576 .elementor {
+      /*Phan ben phai (NEXT)*/ }
+      .module-1576 .elementor .next .text-next .text-next-min {
+        margin-left: 80%;
+        margin-top: -20%; }
+      .module-1576 .elementor .next .text-next .text-hover {
+        margin-left: 20%;
+        font-size: 105%; }
+      .module-1576 .elementor::after {
+        margin-top: 2.5%;
+        width: 90%;
+        /*Phan ben trai (PREVIOUS)*/ }
+        .module-1576 .elementor .previous .text-previous .text-previous-min {
+          margin-top: -20%; }
+        .module-1576 .elementor .previous .text-previous .text-hover {
+          font-size: 120%;
+          /*css cho phan dau*/ }
+    .module-1576 .grid-content {
+      grid-gap: 10%;
+      margin: 15% 5%;
+      padding: 0;
+      display: flex;
+      flex-direction: column;
+      /*Facebook*/ }
+      .module-1576 .grid-content .block-facebook {
+        border-bottom: none; }
+        .module-1576 .grid-content .block-facebook .icon-facebook {
+          margin: 0 10px; }
+        .module-1576 .grid-content .block-facebook:hover {
+          border-top: 1px solid #a8642a;
+          border-left: 1px solid #a8642a;
+          border-right: 1px solid #a8642a;
+          border-bottom: none; }
+          .module-1576 .grid-content .block-facebook:hover i {
+            color: #a8642a; }
+          .module-1576 .grid-content .block-facebook:hover span {
+            color: #a8642a;
+            /*Twitter*/ }
+      .module-1576 .grid-content .block-twitter {
+        border-bottom: none; }
+        .module-1576 .grid-content .block-twitter .icon-twitter {
+          margin: 0 10px; }
+        .module-1576 .grid-content .block-twitter:hover {
+          border-top: 1px solid #a8642a;
+          border-left: 1px solid #a8642a;
+          border-right: 1px solid #a8642a;
+          border-bottom: none; }
+          .module-1576 .grid-content .block-twitter:hover i {
+            color: #a8642a; }
+          .module-1576 .grid-content .block-twitter:hover span {
+            color: #a8642a;
+            /*Pinterest*/ }
+      .module-1576 .grid-content .block-pinterest {
+        border-bottom: none; }
+        .module-1576 .grid-content .block-pinterest .icon-pinterest {
+          margin: 0 10px; }
+        .module-1576 .grid-content .block-pinterest:hover {
+          border-top: 1px solid #a8642a;
+          border-left: 1px solid #a8642a;
+          border-right: 1px solid #a8642a;
+          border-bottom: none; }
+          .module-1576 .grid-content .block-pinterest:hover i {
+            color: #a8642a; }
+          .module-1576 .grid-content .block-pinterest:hover span {
+            color: #a8642a;
+            /*WhatsApp*/ }
+      .module-1576 .grid-content .block-whatsapp .icon-whatsapp {
+        margin: 0 10px; }
+      .module-1576 .grid-content .block-whatsapp:hover {
+        border: 1px solid #a8642a; }
+        .module-1576 .grid-content .block-whatsapp:hover i {
+          color: #a8642a; }
+        .module-1576 .grid-content .block-whatsapp:hover span {
+          color: #a8642a; } }
+
+/*dien thoai*/
+@media (max-width: 600px) {
+  .module-1576 {
+    /*css cho phan cuoi*/ }
+    .module-1576 .elementor {
+      border-top: none; }
+      .module-1576 .elementor .next {
+        /*Phan ben phai (NEXT)*/
+        margin-top: 5%; }
+        .module-1576 .elementor .next .icon-care-right {
+          margin-top: 6%;
+          margin-left: 96%; }
+          .module-1576 .elementor .next .text-next .text-next-min {
+            margin-top: -15%;
+            font-size: 90%; }
+          .module-1576 .elementor .next .text-next .text-hover {
+            margin-left: 25%; }
+      .module-1576 .elementor::after {
+        content: none;
+        /*Phan ben trai (PREVIOUS)*/ }
+      .module-1576 .elementor .previous {
+        border-right: none;
+        border-bottom: 3px solid #000; }
+        .module-1576 .elementor .previous .text-previous .text-previous-min {
+          margin-bottom: 10%;
+          font-size: 90%; } }

@@ -1,0 +1,84 @@
+.module-1566 {
+  margin: 50px 0; }
+  .module-1566 .all-box {
+    padding: 12px 0;
+    cursor: pointer;
+    transition: 0.4s; }
+  .module-1566 .shape-fb {
+    border: 1px solid #000; }
+    .module-1566 .shape-fb:hover {
+      border: 1px solid #a8642a; }
+    .module-1566 .shape-fb .icon-fb {
+      margin-right: 15px;
+      margin-left: 15px; }
+    .module-1566 .shape-fb .text-fb {
+      margin-left: 15px; }
+  .module-1566 .shape-ins {
+    border-top: 1px solid #000;
+    border-right: 1px solid #000;
+    border-bottom: 1px solid #000; }
+    .module-1566 .shape-ins:hover {
+      border-top: 1px solid #a8642a;
+      border-right: 1px solid #a8642a;
+      border-bottom: 1px solid #a8642a; }
+    .module-1566 .shape-ins .icon-ins {
+      margin-right: 15px;
+      margin-left: 15px; }
+    .module-1566 .shape-ins .text-ins {
+      margin-left: 15px; }
+  .module-1566 .shape-instagram {
+    border-top: 1px solid #000;
+    border-right: 1px solid #000;
+    border-bottom: 1px solid #000; }
+    .module-1566 .shape-instagram:hover {
+      border-top: 1px solid #a8642a;
+      border-right: 1px solid #a8642a;
+      border-bottom: 1px solid #a8642a; }
+    .module-1566 .shape-instagram .icon-instagram {
+      margin-right: 15px;
+      margin-left: 15px; }
+    .module-1566 .shape-instagram .text-instagram {
+      margin-left: 15px; }
+  .module-1566 .shape-youtube {
+    border-top: 1px solid #000;
+    border-right: 1px solid #000;
+    border-bottom: 1px solid #000; }
+    .module-1566 .shape-youtube:hover {
+      border-top: 1px solid #a8642a;
+      border-right: 1px solid #a8642a;
+      border-bottom: 1px solid #a8642a; }
+    .module-1566 .shape-youtube .icon-youtube {
+      margin-right: 15px;
+      margin-left: 15px; }
+    .module-1566 .shape-youtube .text-youtube {
+      margin-left: 15px; }
+
+/* Dành cho máy tính bảng*/
+@media (max-width: 1024px) {
+  .module-1566 .box-box {
+    margin: 0 -5%; }
+    .module-1566 .box-box .all-box {
+      font-size: 90%;
+      letter-spacing: -0.1em; }
+      .module-1566 .box-box .all-box .all-text {
+        margin-left: 0; }
+    .module-1566 .box-box .shape-instagram {
+      border-left: none; } }
+
+/* Dành cho máy điện thoại */
+@media (max-width: 600px) {
+  .module-1566 .box-box {
+    margin: 0; }
+    .module-1566 .box-box .all-box {
+      border-bottom: none;
+      border-top: 1px solid #000;
+      border-right: 1px solid #000;
+      border-left: 1px solid #000; }
+      .module-1566 .box-box .all-box:hover {
+        border-top: 1px solid #a8642a;
+        border-right: 1px solid #a8642a;
+        border-left: 1px solid #a8642a; }
+    .module-1566 .box-box .shape-youtube {
+      border-bottom: 1px solid #000; }
+      .module-1566 .box-box .shape-youtube:hover {
+        border-bottom: 1px solid #a8642a; } }

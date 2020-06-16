@@ -1,0 +1,137 @@
+$mau-den: #000;
+$mau-cam: #a8642a;
+.module-1566{
+	.all-box{
+		padding: 12px 0;
+		cursor: pointer;
+		transition: 0.4s;
+	}
+
+	.shape-fb{
+		border: 1px solid $mau-den;
+
+		&:hover{
+			border: 1px solid $mau-cam;
+		}
+
+
+		.icon-fb{
+			margin-right: 15px;
+			margin-left: 15px;
+		}
+		.text-fb{
+			margin-left: 15px;
+		}
+	}
+	.shape-ins{
+		border-top: 1px solid $mau-den;
+		border-right: 1px solid $mau-den;
+		border-bottom: 1px solid $mau-den;
+
+		&:hover{
+			border-top: 1px solid $mau-cam;
+			border-right: 1px solid $mau-cam;
+			border-bottom: 1px solid $mau-cam;
+		}
+		.icon-ins{
+			margin-right: 15px;
+			margin-left: 15px;
+		}
+		.text-ins{
+			margin-left: 15px;
+		}
+	}
+
+	.shape-instagram{
+		border-top: 1px solid $mau-den;
+		border-right: 1px solid $mau-den;
+		border-bottom: 1px solid $mau-den;
+
+		&:hover{
+		border-top: 1px solid $mau-cam;
+		border-right: 1px solid $mau-cam;
+		border-bottom: 1px solid $mau-cam;
+	}
+		.icon-instagram{
+			margin-right: 15px;
+			margin-left: 15px;
+		}
+		.text-instagram{
+			margin-left: 15px;
+		}
+	}
+
+	.shape-youtube{
+		border-top: 1px solid $mau-den;
+		border-right: 1px solid $mau-den;
+		border-bottom: 1px solid $mau-den;
+
+		&:hover{
+			border-top: 1px solid $mau-cam;
+			border-right: 1px solid $mau-cam;
+			border-bottom: 1px solid $mau-cam;
+		}
+		.icon-youtube{
+			margin-right: 15px;
+			margin-left: 15px;
+		}
+		.text-youtube{
+			margin-left: 15px;
+		}
+	}
+	margin: 50px 0;
+}
+
+
+
+/* Dành cho máy tính bảng*/
+@media all and (max-width: 1024px) {
+	.module-1566{
+		.box-box{
+			margin: 0 -5%;
+			.all-box{
+				
+				font-size: 90%;
+				letter-spacing: -0.1em;
+				
+
+				.all-text{
+					margin-left: 0;
+				}
+			}
+			.shape-instagram{
+				border-left: none;
+			}
+		}
+	}
+}
+
+ 
+/* Dành cho máy điện thoại */
+@media all and (max-width: 600px) {
+	.module-1566{
+		.box-box{
+			margin: 0;
+			.all-box{
+				border-bottom: none;
+				border-top: 1px solid $mau-den;
+				border-right: 1px solid $mau-den;
+				border-left: 1px solid $mau-den;
+
+				&:hover{
+					border-top: 1px solid $mau-cam;
+					border-right: 1px solid $mau-cam;
+					border-left: 1px solid $mau-cam;
+				}
+			}
+
+			.shape-youtube{
+				border-bottom: 1px solid $mau-den;
+
+				&:hover{
+					border-bottom: 1px solid $mau-cam;
+				}
+			}
+		}
+	}
+}

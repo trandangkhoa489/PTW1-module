@@ -1,0 +1,280 @@
+$mau-den: #000;
+$mau-cam: #a8642a;
+$mau-xam: #a5a8aa;
+.module-1571{
+    .read-story{
+        cursor: pointer;
+        text-align: center;
+        margin-top: 15px;
+        margin-bottom: 50px;
+        span{
+            padding: 10px 11px;
+            background: $mau-den;
+            margin-right: 50px;
+            text-transform: uppercase;
+            font: normal 600 10px / 12px "Roboto",Helvetica,Arial,Verdana,sans-serif;
+            transition: 0.15s;
+            &:hover{
+                background: $mau-cam;
+            }
+            color: #fff;
+            a{
+                text-decoration: none;
+                color: #fff;
+                margin-right: 6px;
+            }
+        }	
+    }
+
+    .entry-meta{
+        text-align: center;
+        margin-right: 50px;
+        text-transform: uppercase;
+        font-size: 14px;
+        line-height: 1.3em;
+        font-weight: 400;
+        a{
+            text-decoration: none;
+            color: $mau-xam;
+        }
+    }
+
+    .grid-content{
+        display: grid;/*không có cái này sẽ không chia cột grid-template-columns: autu auto được*/
+        grid-template-columns: auto auto;
+        margin: 0 70px;
+        padding: 50px;
+        grid-gap: 15px;/*cách đều mọi grid  */
+        
+        .img-ao{
+            overflow: hidden;
+            width: 400px;
+            height: 250px;
+            position: relative;
+            .plus1{
+                a{
+                    img{
+                        width: 100%;
+                        height: 100%;
+                        margin: auto;
+                        box-sizing: border-box;
+                        transition: 0.4s;
+                        &:hover{
+                            transform: scale(1.3);
+                            opacity:0.45;
+                        }
+                    }
+                }
+                &:hover::before{
+                    content: "";
+                    width: 40px;
+                    height: 3px;
+                    background-color: #000;
+                    position: absolute;
+                    font-size: 70px;
+                    font-weight: 50;
+                    top: calc(50%);
+                    left: calc(50% - 25px);					
+                }
+                &:hover::after{
+                    content: "";
+                    width: 3px;
+                    height: 40px;
+                    background-color: #000;
+                    position: absolute;
+                    font-size: 70px;
+                    font-weight: 50;
+                    top: calc(50% - 19px);
+                    left: calc(50% - 7px);
+                }
+            }
+
+            .plus2{
+                a{
+                    img{
+                        width: 100%;
+                        height: 100%;
+                        margin: auto;
+                        box-sizing: border-box;/*giúp cho kích thước của khối không tăng lên 
+                                                khi padding hoặc border*/
+                        transition: 0.4s;
+                        &:hover{
+                            transform: scale(1.3);
+                            opacity:0.4;
+                        }
+                    }
+                }
+                &:hover::before{
+                    content: "";
+                    width: 40px;
+                    height: 3px;
+                    background-color: #000;
+                    position: absolute;
+                    font-size: 70px;
+                    font-weight: 50;
+                    top: calc(50%);
+                    left: calc(50% - 25px);					
+                }
+                &:hover::after{
+                    content: "";
+                    width: 3px;
+                    height: 40px;
+                    background-color: #000;
+                    position: absolute;
+                    font-size: 70px;
+                    font-weight: 50;
+                    top: calc(50% - 19px);
+                    left: calc(50% - 7px);
+                }
+            }
+            .plus3{
+                a{
+                    img{
+                        width: 100%;
+                        height: 100%;
+                        margin: auto;
+                        box-sizing: border-box;
+                        transition: 0.4s;
+                        &:hover{
+                            transform: scale(1.3);
+                            opacity:0.4;
+                        }
+                    }
+                }
+                &:hover::before{
+                    content: "";
+                    width: 40px;
+                    height: 3px;
+                    background-color: #000;
+                    position: absolute;
+                    font-size: 70px;
+                    font-weight: 50;
+                    top: calc(50%);
+                    left: calc(50% - 25px);					
+                }
+                &:hover::after{
+                    content: "";
+                    width: 3px;
+                    height: 40px;
+                    background-color: #000;
+                    position: absolute;
+                    font-size: 70px;
+                    font-weight: 50;
+                    top: calc(50% - 19px);
+                    left: calc(50% - 7px);
+                }
+            }
+            .plus4{
+                a{
+                    img{
+                        width: 100%;
+                        height: 100%;
+                        margin: auto;
+                        box-sizing: border-box;
+                        transition: 0.4s;
+                        &:hover{
+                            transform: scale(1.3);
+                            opacity:0.4;
+                        }
+                    }
+                }
+                &:hover::before{
+                    content: "";
+                    width: 40px;
+                    height: 3px;
+                    background-color: #000;
+                    position: absolute;
+                    font-size: 70px;
+                    font-weight: 50;
+                    top: calc(50%);
+                    left: calc(50% - 25px);					
+                }
+                &:hover::after{
+                    content: "";
+                    width: 3px;
+                    height: 40px;
+                    background-color: #000;
+                    position: absolute;
+                    font-size: 70px;
+                    font-weight: 50;
+                    top: calc(50% - 19px);
+                    left: calc(50% - 7px);
+                }
+            }
+        }
+        .text-h3{
+            width: 400px;
+            height: auto;
+            text-align: center;
+
+            a{
+                color: $mau-den;
+                text-decoration: none;
+                text-align: center;
+                transition: color 0.35s;
+                font-family: "Times New Roman", Times, serif;
+                font-weight: 500;
+                text-transform: uppercase;
+                font-size: 23px;
+                &:hover{
+                    color: $mau-cam;
+                }
+            }
+        }
+    }
+}
+
+/* Dành cho máy tính bảng*/
+@media all and (max-width: 1024px) {
+    .module-1571{
+        .grid-content{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            align-items: center;
+            .box-box{
+                margin: 10% 0;
+
+                .text-h3{
+                    margin: 2% 0;
+                }
+                .entry-meta{
+                    margin-left: 10%;
+                }
+                .read-story{
+                    margin-left: 15%;
+                }
+            }
+            
+        }
+    }
+}
+
+ 
+/* Dành cho máy điện thoại */
+@media all and (max-width: 600px) {
+    .module-1571{
+        .grid-content{
+            .box-box{
+            margin: 20% 0;
+                .img-ao{
+                    width: 85%;
+                    height: 85%;
+                    margin: 0 7.5%;
+                }
+
+                .text-h3{
+                    h3{
+                        a{
+                            font-size: 60%;
+                        }
+                    }
+                }
+
+                .entry-meta{
+                    font-size: 70%;
+                }
+            }
+        }
+    }
+}
