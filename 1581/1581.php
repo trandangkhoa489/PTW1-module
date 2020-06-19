@@ -18,7 +18,7 @@ file_put_contents("css/1581.css", $style);
 
 ?>
 <!DOCTYPE html>
-<html>
+<html lang="vi">
 <head>
 	<title>Module-1576</title>
 	<meta charset="UTF-8">
