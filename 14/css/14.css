@@ -1,0 +1,92 @@
+.type-14 {
+  margin: 20px 0; }
+  .type-14 .content {
+    background: #f5f8f2; }
+    .type-14 .content .content-min {
+      margin-left: 50px;
+      padding: 25px 0; }
+      .type-14 .content .content-min .star {
+        color: #f3d200;
+        margin-left: 625px;
+        font-size: 15px;
+        cursor: pointer; }
+      .type-14 .content .content-min h2 {
+        font-family: "Times New Roman";
+        font-weight: 900; }
+    .type-14 .content .your-rate .your-star {
+      padding: 0;
+      margin: 0; }
+    .type-14 .content .your-rate i {
+      color: #88b44e;
+      cursor: pointer; }
+    .type-14 .content .your-rate i:hover {
+      background: yellow; }
+    .type-14 .content .your-rate .form-email {
+      margin-top: 15px; }
+    .type-14 .content .your-rate [type=submit] {
+      margin-left: calc(40% + 5px);
+      margin-top: 5px;
+      width: 140px;
+      height: 40px;
+      border: none;
+      background: #88b44e;
+      border-radius: 20px;
+      color: #fff;
+      cursor: pointer;
+      font-family: "Times New Roman";
+      font-size: 18px; }
+    .type-14 .content .your-rate input[type=text] {
+      width: 99%;
+      height: 50px;
+      border-radius: 30px;
+      margin-bottom: 25px;
+      border: 1px solid #88b44e; }
+    .type-14 .content .your-rate h3 {
+      font-family: "Times New Roman";
+      font-weight: 900;
+      font-size: 20px; }
+    .type-14 .content .grid-container {
+      display: grid;
+      grid-template-columns: 50px auto;
+      padding: 10px;
+      margin-bottom: 50px; }
+      .type-14 .content .grid-container .text-icon {
+        margin: 0 15px; }
+        .type-14 .content .grid-container .text-icon span:nth-child(1) a {
+          color: #7a7b7a;
+          font-weight: 900;
+          text-decoration: none; }
+      .type-14 .content .grid-container .comment {
+        margin: 0 15px; }
+        .type-14 .content .grid-container .image-icon img {
+          width: 45px;
+          height: 45px;
+          cursor: pointer; }
+    .type-14 .content .descript-reiew .choose-text {
+      display: grid;
+      grid-template-columns: 140px 120px auto;
+      padding: 10px;
+      margin-bottom: 50px;
+      list-style-type: none;
+      overflow: hidden;
+      margin: 0;
+      padding: 0;
+      /*phan tu li va a dau tien*/ }
+      .type-14 .content .descript-reiew .choose-text li:nth-child(1) {
+        background: #88b44e; }
+        .type-14 .content .descript-reiew .choose-text li:nth-child(1) a:nth-child(1) {
+          color: #fff; }
+      .type-14 .content .descript-reiew .choose-text li:nth-child(3) {
+        background: #fff; }
+      .type-14 .content .descript-reiew .choose-text li {
+        float: left;
+        padding: 10px 20px;
+        font-size: 20px;
+        font-weight: 600;
+        font-family: "Times New Roman";
+        background: #f5f8f2; }
+        .type-14 .content .descript-reiew .choose-text li a {
+          text-decoration: none;
+          color: #000; }
+          .type-14 .content .descript-reiew .choose-text li a span {
+            font-size: 15px; }

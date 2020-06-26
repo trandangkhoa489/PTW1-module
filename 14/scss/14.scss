@@ -1,0 +1,148 @@
+$mau-den: #000;
+$xanh-la-nhat: #f5f8f2;
+$xanh-la: #88b44e;
+$mau-trang: #fff;
+$kieu-chu:"Times New Roman";
+.type-14{
+    margin: 20px 0;
+    .content{
+        background: $xanh-la-nhat;
+
+        .content-min{
+            margin-left: 50px;
+            padding: 25px 0;
+
+            .star{
+                color: #f3d200;
+                margin-left: 625px; 
+                font-size: 15px;
+                cursor: pointer;
+            }
+
+            h2{
+                font-family: $kieu-chu;
+                font-weight: 900;
+            }
+        }
+
+        .your-rate{
+            .your-star{
+                padding: 0;
+                margin: 0;
+            }
+
+            i{
+                color: $xanh-la;
+                cursor: pointer;
+            }
+            i:hover{
+                background: yellow;
+            }
+
+            .form-email{
+                margin-top: 15px;
+            }
+
+            [type=submit]{
+                    margin-left: calc(40% + 5px);
+                    margin-top: 5px;
+                    width: 140px;
+                    height: 40px;
+                    border: none;
+                    background: $xanh-la;
+                    border-radius: 20px;
+                    color: $mau-trang;
+                    cursor: pointer;
+                    font-family: $kieu-chu;
+                    font-size: 18px;
+            }
+
+            input[type=text] {
+                width: 99%;
+                  height: 50px;
+                  border-radius: 30px;
+                  margin-bottom: 25px;
+                  border: 1px solid $xanh-la;
+            }
+            
+
+            h3{
+                font-family: $kieu-chu;
+                font-weight: 900;
+                font-size: 20px;
+            }
+        }
+
+        .grid-container {
+            display: grid;
+            grid-template-columns: 50px auto;
+            padding: 10px;
+            margin-bottom: 50px;
+
+            .text-icon{
+                margin: 0 15px;
+                span:nth-child(1){
+                    a{
+                        color: #7a7b7a;
+                        font-weight: 900;
+                        text-decoration: none;
+                    }
+
+                }
+            }
+            .comment{
+                margin: 0 15px;
+            }
+            .image-icon{
+                img{
+                    width: 45px;
+                    height: 45px;
+                    cursor: pointer;
+                }
+            }
+        }
+        .descript-reiew{
+            .choose-text{
+                display: grid;
+                grid-template-columns: 140px 120px auto;
+                padding: 10px;
+                margin-bottom: 50px;
+                list-style-type: none;
+                overflow: hidden;
+                margin: 0;
+                padding: 0;
+                /*phan tu li va a dau tien*/
+                li:nth-child(1){
+                    background: $xanh-la;
+
+                    a:nth-child(1){
+                        color: $mau-trang;
+                    }
+                }
+                li:nth-child(3){
+                    background: $mau-trang;
+                }
+
+                li{
+                    float: left;
+                    padding: 10px 20px;
+                    font-size: 20px;
+                    font-weight: 600;
+                    font-family: $kieu-chu;
+                    background: $xanh-la-nhat;
+
+                    a{
+                        text-decoration: none;
+                        color: #000;
+
+                        span{
+                            font-size: 15px;
+                        }
+                    }
+                }           
+            }
+        }
+    }
+
+
+}
